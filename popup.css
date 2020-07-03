@@ -1,0 +1,28 @@
+body {
+    margin: 20px;
+    width: 310px;
+    outline: none;
+  }
+  img { margin:10px; }
+  button {
+    background:none;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    
+  }
+  .tab_menu_container {
+    display:flex;
+  }
+  .tab_menu_btn {
+    
+    transition:0.3s all;
+  }
+  .tab_menu_btn.on {
+    border-bottom:2px solid #df0000;
+    font-weight:700;
+    color:#df0000;
+  }
+  .tab_menu_btn:hover {
+    color:#df0000;
+  }

@@ -1,0 +1,44 @@
+.t{
+    text-align: right;
+    font-size: 10px;
+}
+.t:hover {
+    color:#df0000;
+}
+.addList
+{
+    padding: 5px 0px 15px 5px;
+    border-bottom: 1px solid #efefef;
+}
+ul.mylist, ol.mylist {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    max-width: 250px;
+    width: 100%;
+}
+.txt_add{
+    width:200%;
+}
+.btn_add{
+    width:10%;
+}
+ul.mylist li, ol.mylist li {
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+}
+
+ul.mylist li:before,
+ol.mylist li:before {
+    content: ">";
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 5px 6px 0px;
+}
+ul.mylist li:last-child,
+ol.mylist li:last-child {
+    border-bottom: 0px;
+}
+
