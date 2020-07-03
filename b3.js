@@ -12,7 +12,7 @@ function getListDirect(){
     document.getElementById("img4").style.width = "270px";
     $.ajax({
         type:"GET",
-        url:"http://202.30.29.170:8000/plus?url=https://www.youtube.com/watch?v=" + videoID,
+        url:"http://{serverip}/plus?url=https://www.youtube.com/watch?v=" + videoID,
         success: function(data) {
             console.log(data);
             var _temp = data.split("\"");
