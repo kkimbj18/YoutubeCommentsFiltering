@@ -6,6 +6,8 @@
 3. Environment
 4. Files
 
+---
+
 ### 1. Introduction
 Most people watch YouTube these days. As IGAWorks anounced in October, 2020, the number of domestic users is 83% of the country's total population. <br />
 Thus, we've thought about what inconveniences there are in using YouTube from the user's point of view. And we found three things of it. <br />
@@ -23,13 +25,19 @@ Third, **Analyzing viewers' reactions**. YouTubers get feedback on their videos 
 So, we envisioned to show an overall summary with several indicators. <br />
 You need just a few clicks and time for a cup of tea to analyze the whole comments of a YouTube Video. <br />
 
+---
+
 ### 2. Features
 - Analyzing comments sentimentally
 - Counting comments based on timestamps and visualizing by graph
 - Filtering YouTube Comments by Languages or specific words
 
+---
+
 ### 3. Environment
 Using Chrome Extension / Chrome 83.0.4103.116
+
+---
 
 ### 4. Files
 b1 : Filtering<br />
